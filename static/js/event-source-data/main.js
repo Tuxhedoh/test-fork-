@@ -764,6 +764,16 @@ const MainEventSourceData = [
                         club: '188683'
                     }
                 }
+            },
+            {
+                name: 'The End',
+                className: 'the-end',
+                id: 'the-end',
+                extraParams: {
+                    gqlVariables: {
+                        club: '225222'
+                    }
+                }
             }
         ]
     },
