@@ -702,6 +702,16 @@ const MainEventSourceData = [
                 }
             },
             {
+                name: 'Fractals',
+                className: 'fractals',
+                id: 'fractals',
+                extraParams: {
+                    gqlVariables: {
+                        promoter: '134553'
+                    }
+                }
+            },
+            {
                 name: 'Good Room BK',
                 className: 'good-room-bk',
                 id: 'good-room-bk',
