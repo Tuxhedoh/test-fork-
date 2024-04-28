@@ -411,6 +411,12 @@ const MainEventSourceData = [
                 url: 'https://www.eventbrite.com/o/the-nova-experiment-17863009866'
             },
             {
+                name: 'Tiny Arts Supply',
+                id: 'tiny-arts-supply',
+                className: 'tiny-arts-supply',
+                url: 'https://www.eventbrite.com/o/tiny-arts-supply-76612649623'
+            },
+            {
                 name: 'Union Hall',
                 id: 'union-hall',
                 className: 'the-sultan-room',
