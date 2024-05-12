@@ -2,7 +2,7 @@
 layout: none
 ---
 {%- include globals.liquid %}
-import { sliceEvents, createPlugin } from 'https://cdn.skypack.dev/@fullcalendar/core@6.1.9?min';
+import { sliceEvents, createPlugin } from 'https://cdn.skypack.dev/@fullcalendar/core@6.1.11?min';
 import momentTimezone from 'https://cdn.skypack.dev/moment-timezone@0.5.43?min';
 import { default as calendar } from '{{ site.baseurl }}{% link static/js/calendar.js %}';
 import FullCalendarEvent from '{{ site.baseurl }}{% link static/js/event.js %}';
