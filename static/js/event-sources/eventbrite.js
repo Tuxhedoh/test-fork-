@@ -32,6 +32,8 @@ EventBrite.prototype.fetch = async function (url) {
  * @TODO Parse individual occurrences instead of treating as one long event.
  */
 EventBrite.prototype.parse = function () {
-    this.events = this.json.map(FullCalendarEvent.fromSchemaDotOrg);
+    this.events = this.json.itemListElement.map(function (x) {
+        return FullCalendarEvent.fromSchemaDotOrg(x.item);
+    });
     return this;
 };
