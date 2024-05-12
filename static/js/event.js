@@ -56,7 +56,7 @@ export default class FullCalendarEvent {
                 item.location.geo.longitude,
                 item.location.geo.latitude
             ]
-        } : null; // Otherwise, set it to null.
+        } : null; // Otherwise, set it to `null`.
         return {
             title: item.name,
             start: item.startDate,
