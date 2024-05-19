@@ -880,6 +880,12 @@ const MainEventSourceData = [
                 url: 'https://clubcummingnyc.com/schedule?format=json'
             },
             {
+                name: 'Doublé BK',
+                id: 'double-bk',
+                className: 'double-bk',
+                url: 'https://www.doublebk.com/events-calendar?format=json'
+            },
+            {
                 name: 'Father Knows Best',
                 id: 'father-knows-best',
                 className: 'father-knows-best',
