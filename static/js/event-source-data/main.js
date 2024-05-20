@@ -87,6 +87,18 @@ const MainEventSourceData = [
                 }
             },
             {
+                name: 'Rash NYC',
+                id: 'rash-nyc',
+                className: 'rash-nyc',
+                // Pulled from https://rash-bar.nyc/
+                url: 'https://events-api.dice.fm/v1/events?page[size]=24&types=linkout,event&filter[promoters][]=Bushwick%20Friendship%20LLC%20dba%20Rash',
+                extraParams: {
+                    headers: {
+                        'x-api-key': 'SuJn1CazogzTpuWbW9sO5ulnrhRkEAg3crIAU4P4'
+                    }
+                }
+            },
+            {
                 name: 'Saint Vitus',
                 id: 'saint-vitus',
                 className: 'saint-vitus',
