@@ -296,6 +296,12 @@ const MainEventSourceData = [
                 url: 'https://www.eventbrite.com/o/stone-circle-theatre-58642664133'
             },
             {
+                name: 'The Broadway (EventBrite)',
+                id: 'the-broadway-eventbrite',
+                className: 'the-broadway-eventbrite',
+                url: 'https://www.eventbrite.com/o/the-broadway-20150099203'
+            },
+            {
                 name: 'The Woods',
                 id: 'the-woods',
                 className: 'the-woods',
