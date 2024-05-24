@@ -62,8 +62,8 @@ sister_sites:
         for:
           - free
           - cheap
-  - title: Anarchism Dot BOS
-    url: https://readymouse.github.io/AnarchistEventsBOS/
+  - title: Anarchism Dot Boston
+    url: https://anarchism.boston/
     adr:
       locality: Boston
       region: MA
