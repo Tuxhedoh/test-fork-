@@ -62,6 +62,10 @@ sister_sites:
         for:
           - free
           - cheap
+      - name: NYC Dog Events
+        url: https://nycdogevents.com/
+        for:
+          - dog-friendly events
   - title: Anarchism Dot Boston
     url: https://anarchism.boston/
     adr:
