@@ -266,6 +266,12 @@ const MainEventSourceData = [
             //    url: 'https://www.eventbrite.com/o/good-judy-31484266863'
             //},
             {
+                name: 'Grassy Noll BK',
+                id: 'grassy-noll-bk',
+                className: 'grassy-noll-bk',
+                url: 'https://www.eventbrite.com/o/grassy-noll-61719260603'
+            },
+            {
                 name: 'House of Yes',
                 id: 'house-of-yes',
                 className: 'house-of-yes',
