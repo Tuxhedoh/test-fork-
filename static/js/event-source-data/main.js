@@ -43,7 +43,7 @@ const MainEventSourceData = [
                 id: 'cmon-everybody',
                 className: 'cmon-everybody',
                 // Pulled from https://www.cmoneverybody.com/events
-                url: 'https://events-api.dice.fm/v1/events?page%5Bsize%5D=24&types=linkout,event&filter%5Bvenues%5D%5B%5D=C%27mon%20Everybody&filter%5Bvenues%5D%5B%5D=Cmon%20Everybody',
+                url: 'https://events-api.dice.fm/v1/events?page%5Bsize%5D=24&types=linkout,event&filter%5Bvenues%5D%5B%5D=C%27mon%20Everybody',
                 extraParams: {
                     headers: {
                         'x-api-key': 'PyghT2k59li4oGXIef8t4Git2vRl58H7WAuUJGpd'
@@ -107,6 +107,18 @@ const MainEventSourceData = [
                 extraParams: {
                     headers: {
                         'x-api-key': '1RsJ9u1HnFaj5F5hqFD7F9Idwsqi0o4z7QMQ2uGw'
+                    }
+                }
+            },
+            {
+                name: 'Silo Brooklyn',
+                id: 'silo-brooklyn',
+                className: 'silo-brooklyn',
+                url: 'https://events-api.dice.fm/v1/events?page[size]=24&types=linkout,event&filter[venues][]=Silo%20Brooklyn',
+                extraParams: {
+                    headers: {
+                        // Actually using C'mon Everybody's API key. Shrug.
+                        'x-api-key': 'PyghT2k59li4oGXIef8t4Git2vRl58H7WAuUJGpd'
                     }
                 }
             },
