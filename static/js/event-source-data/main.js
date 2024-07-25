@@ -790,6 +790,16 @@ const MainEventSourceData = [
                 }
             },
             {
+                name: 'Jupiter Disco',
+                className: 'jupiter-disco',
+                id: 'jupiter-disco',
+                extraParams: {
+                    gqlVariables: {
+                        club: '128789'
+                    }
+                }
+            },
+            {
                 name: 'Merge (Resident Advisor)',
                 className: 'merge',
                 id: 'merge',
