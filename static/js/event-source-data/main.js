@@ -163,7 +163,7 @@ const MainEventSourceData = [
                 id: 'xanadu-roller-arts',
                 className: 'xanadu-roller-arts',
                 // Pulled from https://www.xanadu.nyc/calendar-skate
-                url: 'https://events-api.dice.fm/v1/events?page%5Bsize%5D%3D24%26types%3Dlinkout%2Cevent%26filter%5Bpromoters%5D%5B%5D%3DXanadu%20Roller%20Arts',
+                url: 'https://events-api.dice.fm/v1/events?page[size]=24&types=linkout,event&filter[venues][]=Xanadu',
                 extraParams: {
                     headers: {
                         'x-api-key': 'U9h1YsqzVU35DHHbW6J731wWkjDtHboB1RShm5KH'
