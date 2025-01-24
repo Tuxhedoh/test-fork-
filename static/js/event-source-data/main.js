@@ -1010,6 +1010,12 @@ const MainEventSourceData = [
                 url: 'https://www.powrplnt.org/calendar-5?format=json'
             },
             {
+                name: 'Parkside Lounge',
+                id: 'parkside-lounge',
+                className: 'parkside-lounge',
+                url: 'https://www.parksidelounge.nyc/calendar?format=json'
+            },
+            {
                 name: 'Scope Tonight',
                 id: 'scope-tonight',
                 className: 'scope-tonight',
