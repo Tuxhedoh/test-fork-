@@ -338,6 +338,12 @@ const MainEventSourceData = [
                 url: 'https://www.eventbrite.com/o/the-woods-12421786066'
             },
             {
+                name: 'The House',
+                id: 'the-house',
+                className: 'the-house',
+                url: 'https://www.eventbrite.com/o/the-house-88654929613'
+            },
+            {
                 name: 'Lakeside Prospect Park',
                 id: 'lakeside-prospect-park',
                 className: 'lakeside-prospect-park',
