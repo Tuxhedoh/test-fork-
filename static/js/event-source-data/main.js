@@ -581,6 +581,12 @@ const MainEventSourceData = [
                 url: 'https://calendar.google.com/calendar/ical/qhsrkjv5s7mb4vidjem575jvt4%40group.calendar.google.com/public/basic.ics'
             },
             {
+                name: 'The Mint Muse',
+                id: 'the-mint-muse',
+                className: 'the-mint-muse',
+                url: 'https://calendar.google.com/calendar/ical/eb535e467c4dadeada04a5c0686b1aa1d9eaabcdbc8172ebc371958b5a15d444%40group.calendar.google.com/public/basic.ics'
+            },
+            {
                 name: 'NYC Resistor (Google Calendar)',
                 id: 'nycresistor',
                 className: 'nycresistor',
