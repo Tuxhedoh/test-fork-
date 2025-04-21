@@ -812,6 +812,16 @@ const MainEventSourceData = [
                 }
             },
             {
+                name: 'Mansions',
+                className: 'mansions',
+                id: 'mansions',
+                extraParams: {
+                    gqlVariables: {
+                        club: '197275'
+                    }
+                }
+            },
+            {
                 name: 'Merge (Resident Advisor)',
                 className: 'merge',
                 id: 'merge',
@@ -838,6 +848,16 @@ const MainEventSourceData = [
                 extraParams: {
                     gqlVariables: {
                         club: '195815'
+                    }
+                }
+            },
+            {
+                name: 'Perfect Health',
+                className: 'perfect-health',
+                id: 'perfect-health',
+                extraParams: {
+                    gqlVariables: {
+                        promoter: '141140'
                     }
                 }
             },
