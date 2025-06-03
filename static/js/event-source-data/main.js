@@ -714,6 +714,20 @@ const MainEventSourceData = [
         ]
     },
     {
+        sourceType: 'Luma',
+        options: {},
+        sources: [
+            {
+                name: 'NEAR community',
+                className: 'near-community',
+                id: 'near-community',
+                extraParams: {
+                    api_id: 'cal-Nrz4EsmLDjXvjPp'
+                }
+            },
+        ]
+    },
+    {
         sourceType: 'ResidentAdvisor',
         options: {
             url: 'https://ra.co/graphql',

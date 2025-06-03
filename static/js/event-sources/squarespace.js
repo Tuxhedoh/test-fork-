@@ -60,7 +60,7 @@ Squarespace.prototype.toFullCalendarEventObject = function ( e ) {
             },
             geo: {
                 latitude: e.location.mapLat,
-                longitude: e.location.mapLng,
+                longitude: e.location.mapLng
             }
         }
     } : null; // Otherwise, set it to `null`.
@@ -76,4 +76,4 @@ Squarespace.prototype.toFullCalendarEventObject = function ( e ) {
             raw: e
         }
     });
-}
+};
