@@ -1,11 +1,11 @@
 /**
- * Utility module to support the calendar's Luma
+ * Utility module to support the calendar's Luma Calendar
  * event sources.
  */
 import { useCorsProxy } from '../utils.js';
 import FullCalendarEvent from '../event.js';
 
-export default function Luma ( optionsObj ) {
+export default function LumaCalendar ( optionsObj ) {
     this.url = new URL(`https://api.lu.ma/calendar/get?api_id=${optionsObj.extraParams.api_id}`);
 
     return this.fetch(this.url).then((luma) => {
@@ -15,7 +15,7 @@ export default function Luma ( optionsObj ) {
     });
 };
 
-Luma.prototype.fetch = async function ( url ) {
+LumaCalendar.prototype.fetch = async function ( url ) {
     var response = await fetch(useCorsProxy(url));
     var json = {};
     try {
@@ -28,12 +28,12 @@ Luma.prototype.fetch = async function ( url ) {
     return this;
 };
 
-Luma.prototype.parse = function () {
+LumaCalendar.prototype.parse = function () {
     this.events = this.json.featured_items;
     return this;
 };
 
-Luma.prototype.toFullCalendarEventObject = function ( e ) {
+LumaCalendar.prototype.toFullCalendarEventObject = function ( e ) {
     // If we have geographical and address info, grab its data.
     var location = ( e.event.geo_address_info ) ? {
         geoJSON: ( e.event.coordinate) ? {

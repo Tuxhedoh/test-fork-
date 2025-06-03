@@ -714,7 +714,7 @@ const MainEventSourceData = [
         ]
     },
     {
-        sourceType: 'Luma',
+        sourceType: 'LumaCalendar',
         options: {},
         sources: [
             {
