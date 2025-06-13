@@ -114,7 +114,7 @@ const OneOffEventSources = [
                 id: 'hacienda-villa',
                 className: 'hacienda-villa',
                 events: async function (fetchInfo, successCallback, failureCallback) {
-                    var response = await fetch(Utils.useCorsProxy('https://www.wearehacienda.com/events'));
+                    var response = await fetch(Utils.useCorsProxy('https://members.wearehacienda.com/events'));
                     var html = await response.text();
                     var doc = Utils.domparser.parseFromString(html, 'text/html');
                     var items = doc.querySelectorAll('.more-event');

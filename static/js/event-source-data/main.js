@@ -197,12 +197,6 @@ const MainEventSourceData = [
                 url: 'https://www.eventbrite.com/o/artcrawl-harlem-33584703715'
             },
             {
-                name: 'Barnard Vagelos Computational Science Center',
-                id: 'barnard-vagelos-computational-science-center',
-                className: 'barnard-vagelos-computational-science-center',
-                url: 'https://www.eventbrite.com/o/barnard-vagelos-computational-science-center-34292236013'
-            },
-            {
                 name: 'Big Milk',
                 id: 'big-milk',
                 className: 'big-milk',
@@ -951,12 +945,6 @@ const MainEventSourceData = [
                 className: 'avant-gardner',
                 url: 'https://www.avant-gardner.com/events?format=json'
             },
-            {
-                name: 'Black Flamingo',
-                id: 'black-flamingo',
-                className: 'black-flamingo',
-                url: 'https://www.blackflamingonyc.com/events-1?format=json'
-            },
             //{
             //    name: 'Brooklyn Art Cave',
             //    id: 'brooklyn-art-cave',
@@ -964,12 +952,12 @@ const MainEventSourceData = [
             //            url: 'https://www.brooklynartcave.com/events-one?format=json'
             //    }
             //},
-            {
-                name: 'Bush BK',
-                id: 'bush-bk',
-                className: 'bush-bk',
-                url: 'https://www.bushbk.com/events?format=json'
-            },
+            //{
+            //    name: 'Bush BK',
+            //    id: 'bush-bk',
+            //    className: 'bush-bk',
+            //    url: 'https://www.bushbk.com/events?format=json'
+            //},
             // This venue no longer publishes a calendar. :(
             //{
             //    name: 'Cherry on Top',
@@ -1047,7 +1035,7 @@ const MainEventSourceData = [
                 name: 'OutSmartNYC',
                 id: 'outsmartnyc',
                 className: 'outsmartnyc',
-                url: 'https://www.outsmartnyc.info/new-events?format=json'
+                url: 'https://www.outsmartnyc.org/events?format=json'
             },
             {
                 name: 'POWRPLNT',
@@ -1121,12 +1109,6 @@ const MainEventSourceData = [
                 id: 'vers',
                 className: 'vers',
                 url: 'https://www.versnyc.com/events-vers-gay-bar-nyc?format=json'
-            },
-            {
-                name: 'Wandering Barman',
-                id: 'wandering-barman',
-                className: 'wandering-barman',
-                url: 'https://www.wanderingbarman.com/events?format=json'
             },
             {
                 name: 'Wonderville',
