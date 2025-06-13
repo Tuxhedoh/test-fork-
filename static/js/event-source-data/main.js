@@ -1074,6 +1074,12 @@ const MainEventSourceData = [
                 url: 'https://www.talonbar.com/events?format=json'
             },
             {
+                name: 'Temple New York',
+                id: 'temple-new-york',
+                className: 'temple-new-york',
+                url: 'https://www.templenewyork.org/events?format=json'
+            },
+            {
                 name: 'The Broadway',
                 id: 'the-broadway',
                 className: 'the-broadway',
