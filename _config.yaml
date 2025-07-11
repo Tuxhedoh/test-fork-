@@ -7,21 +7,18 @@
 #####################################################################
 
 # Site settings
-title: Anarchism Dot NYC
+title: Cincy Events Dot Com
 tagline:
 description: >-
-  Events and happenings in the Anarchist jurisdiction (lmao) of New York City.
+  Events and happenings in the Cincinnati Area
   Stop scrolling insta to find the move.
-  <br />
-  Mostly for the girls, gays, and theys.
-  Heavy on the queer because of course we fucking are.
 lang: "en_US" # The primary human language you write in.
 timezone: "America/New_York"
 type: Website
 logo: &logo static/img/BlackFlagSymbol.svg
 
 author:
-  name: Anarcho-Tech NYC
+  name: Tuxhedoh
   email:
 
 # List of other sites to link to in the site footer
@@ -29,7 +26,7 @@ author:
 #
 # Please keep this list alphabetized by `adr.locality`.
 sister_sites:
-  - title: Anarchism Dot NYC
+  - title: The OG  - Anarchism Dot NYC
     url: https://Anarchism.NYC
     adr:
       locality: New York
